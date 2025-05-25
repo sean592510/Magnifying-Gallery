@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional image gallery with zoom functionality">
+  <title>Image Zoom Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Image Zoom Gallery</h1>
+    <p>Hover or tap on images to zoom in. Use mouse wheel to adjust zoom level.</p>
+  </header>
+  <main>
+    <div class="gallery" role="grid" aria-label="Image gallery with zoom">
+      <!-- Images added dynamically by JavaScript -->
+    </div>
+    <div class="zoom" aria-hidden="true">
+      <img class="image-zoom" src="" alt="Zoomed image">
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Image Zoom Gallery. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
