@@ -1,0 +1,37 @@
+```gitignore
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+dist/
+build/
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+  # OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.log
+*.cache
+*.tmp
+*.swp
+# Local development
+live-server/
+
+# Large assets (optional)
+# *.jpg
+# *.png
+# Uncomment above if you store many/large images
